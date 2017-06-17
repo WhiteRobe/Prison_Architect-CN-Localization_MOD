@@ -1,0 +1,5 @@
+﻿Name        "Simplified Chinese"
+Author      "Introversion Software/A.O.Pika"
+Date        06/10/2015
+Description "Official Simplified Chinese translation of Prison Architect/completed by Attack.On.Pika"
+ThumbnailSprite simplifiedchinese

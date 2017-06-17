@@ -1,0 +1,7 @@
+
+Name                 "[PIKA-1]Simplified Chinese-Refix v1.4"  
+Description          "Simplified Chinese-Refix. \n Details Here:\n http://steamcn.com/t204381-1-1 \n\n By Attack.On.Pika\nUpdataTime: 2016.7.21"  
+IsTranslation        true  
+SteamAuthor          A76561198104963431  
+Author               Attack.On.Pika  
+FileID               F728774092  
