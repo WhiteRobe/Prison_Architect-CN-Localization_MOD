@@ -256,6 +256,7 @@ interfacetopbar_title_day						天数
 interfacetopbar_title_prisoners					囚犯
 interfacetopbar_title_guards					警卫
 interfacetopbar_title_tension                   危险等级
+interfacetopbar_title_weathericon               天气
 
 interfacetopbar_tooltip_balance					你在银行内的存款余额。\n\n点击以通过补助清单获得更多资金。
 interfacetopbar_tooltip_budget					根据目前你的日常费用和收入计算出的每天你能获取的资金。\n\n点击查看细分收支清单。
@@ -264,6 +265,7 @@ interfacetopbar_tooltip_day						你经营监狱的时长。
 interfacetopbar_tooltip_prisoners				目前拥有的监狱数量以及可容纳的囚犯数量。
 interfacetopbar_tooltip_guards					监狱中待命的警卫数量
 interfacetopbar_tooltip_tension                 安保主管报告的监狱整体风险等级。
+interfacetopbar_tooltip_weathericon             当前天气和气温。
 
 interfacetopbar_tooltip_recenttransactions      最近的交易
 
@@ -277,9 +279,15 @@ interfacetopbar_tooltip_guardavailable          *X 名待命中
 interfacetopbar_tooltip_guardresting            *X 名休息中
 interfacetopbar_tooltip_guardactive             （*X 名正在处置事件）
 interfacetopbar_tooltip_guarddoingjob           *X 名正在执行任务
-interfacetopbar_tooltip_idle                    （*X 空闲）
-interfacetopbar_tooltip_armedguards              + *X 名武装警卫
-interfacetopbar_tooltip_dogs                     + *X 名警犬训练员
+interfacetopbar_tooltip_idle                    （*X 名警卫空闲）
+interfacetopbar_tooltip_guardonbreak            *X 名警卫休假中
+interfacetopbar_tooltip_guardwantsabreak        (*X 名警卫需要休假)
+interfacetopbar_tooltip_guardsstriking          *X 名警卫罢工中
+
+interfacetopbar_tooltip_armedguards             + *X 名武装警卫
+interfacetopbar_tooltip_dogs                    + *X 名警犬训练员
+interfacetopbar_tooltip_regularguards			+ *X 名一般守卫
+interfacetopbar_tooltip_snipers					+ *X 名狙击手
 
 interfacetopbar_unlimitedfunds                  无限资金
 
@@ -823,7 +831,7 @@ codex_workshop							分享监狱(Steam Workshop)
 codex_steamtrending                     最受欢迎的监狱 (Steam)
 codex_checkforupdates                   检查更新
 codex_preorder                          立刻预购
-codex_termsconditions                   条款与条件
+codex_termsconditions                   用户条款
 codex_twitter                           推特/Twitter
 codex_extras                            附加功能
 codex_unlocked                          已解锁 *X/*Y
@@ -1614,6 +1622,9 @@ victory_escapes                         越狱
 victory_counter                         (*X今天)
 victory_executions                      非法处决
 victory_innocentsexecuted               处决了无辜囚犯
+victory_staffdeaths						员工死亡
+victory_staffpayrise                    员工不开心
+victory_staffstrike                     员工罢工
 
 victory_warning_bankrupt                你有24个小时来解决财政危机。
 victory_warning_riot                    迅速制止暴动，否则政府将接管指挥权。
@@ -2892,6 +2903,23 @@ season_spring                           春天
 season_summer                           夏天
 season_autumn                           秋天
 season_winter                           冬天
+
+weather_current                         当前天气: *X
+weather_none                            晴朗
+weather_overcast                        多云
+weather_rain                            下雨
+weather_snow                            下雪
+weather_heatwave                        酷热
+weather_torrentialrain                  暴雨
+
+prisoner_cellerror_nonefree             没有空余囚犯可供该囚犯居住
+prisoner_cellerror_toohighquality      	所有可用囚犯对于该囚犯来说，品质都太高了
+prisoner_cellerror_nosolitary          	这个囚犯需要单独监禁，但目前没有单独的囚室。
+
+group_all_staff                         所有员工
+staff_onbreak                           休假中
+staff_onbreakremaining					休假尚余 (*X 分钟)
+staff_breaktime                         休假时间 : 
 
 # =============================================================================
 # Campaign info
