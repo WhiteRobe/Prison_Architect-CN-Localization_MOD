@@ -887,3 +887,62 @@ codex_gamebible_prev                    <
 codex_gamebible_singlepage              页码 *X
 codex_gamebible_doublepage              页码 *X-*Y
 object_collectable                      圣经掉页
+
+# =============================================================================
+# Multiplayer
+# =============================================================================
+
+codex_startonline                   在线游戏
+codex_start                         创建游戏
+codex_joinonline                    加入在线游戏
+codex_join                          加入
+codex_usernamelabel                 玩家名:
+codex_namelabel                     房间名:
+codex_passwordlabel                 密码:
+codex_passwordprotectedlabel        房间密码?
+codex_listedlabel                   所有人可见?
+codex_roomlistlabel                 游戏房间列表:
+codex_connectinglabel               连接中...
+codex_retrievingserverlistlabel     获取游戏房间列表...
+codex_datausage                     数据流量: 发送 - *SkB/s, 收到 - *RkB/s
+codex_multiplayeroptions            管理玩家
+codex_playeroptions                 玩家
+codex_regionlabel                   区域:
+
+multiplayer_chooseroomname          请输入游戏名字
+multiplayer_chooseusername          请选择玩家名
+multiplayer_joining                 加入中: *X
+multiplayer_joiningstate_joining    加入游戏中
+multiplayer_joiningstate_receiving  获取游戏数据
+multiplayer_joiningstate_loading    载入游戏世界
+multiplayer_rejoining               重新加入:
+multiplayer_leavegame_confirm       你确定要离开当前合作游戏吗?
+multiplayer_hostleft                主机已掉线.
+multiplayer_joingamefailed          加入游戏失败:
+multiplayer_startgamefailed         启动游戏失败:
+multiplayer_incorrectpassword       密码错误
+multiplayer_disconnected            已掉线.
+multiplayer_syncerror               已掉线.\n\n请尝试重连.
+multiplayer_hostonly                只对主机玩家开放.
+multiplayer_modsdisabled            线上游戏禁用MOD.
+multiplayer_mutatorsdisabled        线上游戏无法应用自定义世界设定.
+multiplayer_kicked                  你被踢出游戏.
+multiplayer_kick                    踢出玩家
+multiplayer_ban                     封禁
+
+multiplayer_host                    主机:
+
+multiplayer_welcomeanalytics        欢迎来到《监狱建筑师》在线游戏.\n\n我们一直努力让玩家在多人游戏中获得完整监狱建筑师游戏体验。监狱建筑师是一个大游戏，这是我们第一次尝试让所有人都可以进行在线游戏，因此我们将密切关注玩家可能遇到的任何问题。\n\n为了帮助我们进行分析，我们希望收集一些匿名数据来帮助解决其他人可能遇到的问题。您可以随时从“选项”菜单禁用此功能。您可以在metrics.txt中看到我们将要收集的数据\n\n希望您和朋友一起扮演监狱建筑师的体验让您感到开心。
+
+region_asia                         Asia(亚洲)
+region_au                           Australia(澳洲)
+region_cae                          Canada, East(加拿大,东部)
+region_eu                           Europe(欧洲)
+region_in                           India(印度)
+region_jp                           Japan(日本)
+region_ru                           Russia(俄罗斯)
+region_rue                          Russia, East(俄罗斯东部)
+region_sa                           South America(南美)
+region_kr                           South Korea(南韩)
+region_us                           USA, East(美国东部)
+region_usw                          USA, West(美国西部)
